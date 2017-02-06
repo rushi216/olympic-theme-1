@@ -39,6 +39,13 @@
 		<exclude name="WordPress.XSS.EscapeOutput.OutputNotEscaped" />
 		<exclude name="WordPress.Variables.GlobalVariables.OverrideProhibited"/>
 		<exclude name="WordPress.XSS.EscapeOutput.UnsafePrintingFunction" />
+		<exclude name="WordPress.VIP.ValidatedSanitizedInput.MissingUnslash" />
+		<exclude name="WordPress.VIP.ValidatedSanitizedInput.InputNotSanitized" />
+		<exclude name="WordPress.VIP.DirectDatabaseQuery.NoCaching"/>
+		<exclude name="WordPress.WP.EnqueuedResources.NonEnqueuedScript" />
+		<exclude name="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed" />
+		<exclude name="Squiz.Commenting.FunctionComment.MissingParamName" />
+		<exclude name="Generic.Strings.UnnecessaryStringConcat.Found" />
 		
   	</rule>
 	<rule ref="Squiz.Commenting.FunctionComment.ScalarTypeHintMissing">
