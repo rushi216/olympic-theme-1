@@ -36,6 +36,9 @@
 		<exclude name="WordPress.Functions.DontExtract.extract" />
 		<exclude name="Squiz.Commenting.FileComment.WrongStyle" />
 		<exclude name="Generic.Commenting.DocComment.Empty" />
+		<exclude name="WordPress.XSS.EscapeOutput.OutputNotEscaped" />
+		<exclude name="WordPress.Variables.GlobalVariables.OverrideProhibited"/>
+		<exclude name="WordPress.XSS.EscapeOutput.UnsafePrintingFunction" />
 		
   	</rule>
 	<rule ref="Squiz.Commenting.FunctionComment.ScalarTypeHintMissing">
