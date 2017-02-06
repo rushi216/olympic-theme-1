@@ -21,7 +21,23 @@
 	<rule ref="WordPress-Docs">
 
 	</rule>
-
+	<rule ref="WordPress">
+  		<exclude name="Generic.WhiteSpace.ScopeIndent.IncorrectExact" />
+  		<exclude name="Generic.WhiteSpace.ScopeIndent.Incorrect" />
+		<exclude name="PEAR.Functions.FunctionCallSignature.Indent" />
+		<exclude name="WordPress.NamingConventions.ValidFunctionName.FunctionNameInvalid"/>
+		<exclude name="Squiz.Commenting.FunctionComment.Missing" />
+		<exclude name="WordPress.PHP.YodaConditions.NotYoda" />
+		<exclude name="WordPress.WP.PreparedSQL.NotPrepared" />
+		<exclude name="WordPress.NamingConventions.ValidVariableName.NotSnakeCase" />
+		<exclude name="Squiz.Commenting.BlockComment.NoEmptyLineBefore" />
+		<exclude name="Squiz.Commenting.FunctionComment.WrongStyle" />
+		<exclude name="WordPress.WP.I18n.NonSingularStringLiteralText" />
+		<exclude name="WordPress.Functions.DontExtract.extract" />
+		<exclude name="Squiz.Commenting.FileComment.WrongStyle" />
+		<exclude name="Generic.Commenting.DocComment.Empty" />
+		
+  	</rule>
 	<rule ref="Squiz.Commenting.FunctionComment.ScalarTypeHintMissing">
 		<severity>0</severity>
 	</rule>
