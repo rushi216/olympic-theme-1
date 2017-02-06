@@ -15,11 +15,11 @@
                     <?php //get_sidebar( 'main' ); ?>
                         <h2 class="text-center">Join the Fun!</h2>            
                     <div>
-                                <div class="blue col-md-2"></div>
-                                <div class="yellow col-md-2"></div>
-                                <div class="black col-md-2"></div>
-                                <div class="green col-md-2"></div>
-                                <div class="red col-md-2"></div>
+							<div class="blue col-md-2"></div>
+							<div class="yellow col-md-2"></div>
+							<div class="black col-md-2"></div>
+							<div class="green col-md-2"></div>
+							<div class="red col-md-2"></div>
                     </div>
                     <div class="bottom-footer text-center">
                         <p>Copyright <?php echo date('Y'); ?> Promact Infotech Pvt Ltd.All Rights Reserved</p>

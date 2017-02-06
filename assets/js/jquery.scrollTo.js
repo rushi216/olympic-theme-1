@@ -9,6 +9,7 @@
  */
 ;(function(factory) {
 	'use strict';
+	var define, module, require;
 	if (typeof define === 'function' && define.amd) {
 		// AMD
 		define( ['jquery'], factory );
