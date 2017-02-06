@@ -122,7 +122,7 @@ if($show_horizontal==1){
         $output.='<tbody>';
         if(isset($ps))
         foreach($ps as $comp=>$points):
-        $pageDetail = get_page_by_title('Competition');		
+        $pageDetail = wpcom_vip_get_page_by_title('Competition');		
 	    $permalink = get_page_link($pageDetail->ID); 
 		$permalink = rtrim($permalink,"/")."?competition=";	
     	    $comp = '<a href="' . $permalink.$comp."&leaguetbl=".$id."&tid=".$tid . '">' . $comp . '</a>';
