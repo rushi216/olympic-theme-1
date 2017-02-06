@@ -46,6 +46,7 @@
 		<exclude name="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed" />
 		<exclude name="Squiz.Commenting.FunctionComment.MissingParamName" />
 		<exclude name="Generic.Strings.UnnecessaryStringConcat.Found" />
+		<exclude name="WordPress.VIP.RestrictedFunctions.get_page_by_title" />
 		
   	</rule>
 	<rule ref="Squiz.Commenting.FunctionComment.ScalarTypeHintMissing">
