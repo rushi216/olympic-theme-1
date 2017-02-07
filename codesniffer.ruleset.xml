@@ -17,14 +17,6 @@
 		<exclude name="Squiz.Commenting.FunctionComment.MissingParamTag" />
 		<exclude name="Squiz.Commenting.InlineComment.InvalidEndChar" />
 		<exclude name="Squiz.Commenting.InlineComment.NotCapital" />
-	</rule>
-	<rule ref="WordPress-Docs">
-
-	</rule>
-	<rule ref="WordPress">
-  		<exclude name="Generic.WhiteSpace.ScopeIndent.IncorrectExact" />
-  		<exclude name="Generic.WhiteSpace.ScopeIndent.Incorrect" />
-		<exclude name="PEAR.Functions.FunctionCallSignature.Indent" />
 		<exclude name="WordPress.NamingConventions.ValidFunctionName.FunctionNameInvalid"/>
 		<exclude name="Squiz.Commenting.FunctionComment.Missing" />
 		<exclude name="WordPress.PHP.YodaConditions.NotYoda" />
@@ -46,6 +38,13 @@
 		<exclude name="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed" />
 		<exclude name="Squiz.Commenting.FunctionComment.MissingParamName" />
 		<exclude name="Generic.Strings.UnnecessaryStringConcat.Found" />
+	</rule>
+	<rule ref="WordPress-Docs">
+
+	</rule>
+	<rule ref="WordPress">
+  		
+		
 		
   	</rule>
 	<rule ref="Squiz.Commenting.FunctionComment.ScalarTypeHintMissing">
