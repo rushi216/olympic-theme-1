@@ -32,6 +32,7 @@ extract( $defaults, EXTR_SKIP );
 $td_class = "";
 $output = "";
 $div_id = "";
+global $wpdb;
 
 $tids = explode(',',$tid);
 
@@ -122,8 +123,8 @@ if($show_horizontal==1){
         $output.='<tbody>';
         if(isset($ps))
         foreach($ps as $comp=>$points):
-        $pageDetail = wpcom_vip_get_page_by_title('Competition');		
-	    $permalink = get_page_link($pageDetail->ID); 
+        $pageDetail = $wpdb->get_results("SELECT * FROM ".$wpdb->prefix.'posts where post_title="Competition"');//get page with name Competition
+	    $permalink = get_page_link($pageDetail[0]->ID); 
 		$permalink = rtrim($permalink,"/")."?competition=";	
     	    $comp = '<a href="' . $permalink.$comp."&leaguetbl=".$id."&tid=".$tid . '">' . $comp . '</a>';
             $output.='<tr>';
