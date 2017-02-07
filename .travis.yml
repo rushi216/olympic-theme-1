@@ -30,7 +30,6 @@ deploy:
   password: "Promact2016"
   file: 
     - "404.php"
-	- "footer.php"
   skip_cleanup: true
   on:
     tags: true	
