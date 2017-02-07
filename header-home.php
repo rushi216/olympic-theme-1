@@ -32,23 +32,23 @@
 
     <body <?php body_class(); ?>>
         <div>
-            <?php get_template_part( 'template-parts/header/header', 'image' ); ?>
-			
-            </header>
+            <?php get_template_part('template-parts/header/header', 'image'); ?>
 
-            <div id="main" class="site-main">                
+        </header>
 
-<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/js/bootstrap.min.js'; ?>"></script>
+        <div id="main" class="site-main">                
 
-<script type="text/javascript">
-/*    var num=603;
-    $(window).bind('scroll', function() {           
-    //alert("function called");
-    if ($(window).scrollTop() >num) {
-        $('.nav-menu').addClass('fixed');
-    } else {
-        $('.nav-menu').removeClass('fixed');
-    }
-});
-*/
-</script>
+            <script type="text/javascript" src="<?php echo get_template_directory_uri() . '/js/bootstrap.min.js'; ?>"></script>
+
+            <script type="text/javascript">
+                /*    var num=603;
+                 $(window).bind('scroll', function() {           
+                 //alert("function called");
+                 if ($(window).scrollTop() >num) {
+                 $('.nav-menu').addClass('fixed');
+                 } else {
+                 $('.nav-menu').removeClass('fixed');
+                 }
+                 });
+                 */
+            </script>
