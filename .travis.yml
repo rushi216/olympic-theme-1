@@ -24,13 +24,14 @@ script:
 
 # upload releases back to github
 before_deploy:
-  - export RELEASE_PKG_FILE=$(ls *.deb)
+  - export RELEASE_PKG_FILE=$(ls *.php)
   - echo "deploying $RELEASE_PKG_FILE to GitHub releases"
 
 deploy:
   provider: releases
   api_keys: "414a574c1612ad852dc2016fb73e6546ce6b6710"
   file_glob: true
-  file: "footer.php"
+  file: "${RELEASE_PKG_FILE}"
+  skip_cleanup: true
   on:
     tags: true	
