@@ -27,7 +27,7 @@ before_deploy:
 
 deploy:
   provider: releases  
-  api_key: "eb41d65809c903832d06910685cbb842ddecdad6"
+  api_key: eb41d65809c903832d06910685cbb842ddecdad6
   file: '*'  
   skip_cleanup: true
   on:    
