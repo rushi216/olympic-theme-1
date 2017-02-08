@@ -29,8 +29,7 @@ before_deploy:
 
 deploy:
   provider: releases
-  user: "pranali2016"
-  password: "Promact2016"
+  api_keys: "414a574c1612ad852dc2016fb73e6546ce6b6710"
   file_glob: true
   file: "${RELEASE_PKG_FILE}"
   skip_cleanup: true
