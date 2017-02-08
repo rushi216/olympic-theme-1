@@ -33,5 +33,6 @@ deploy:
   file_glob: true
   file: "${RELEASE_PKG_FILE}"
   skip_cleanup: true
+  
   on:
     tags: true	
