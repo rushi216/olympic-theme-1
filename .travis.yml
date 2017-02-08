@@ -14,7 +14,6 @@ php:
 sudo: false
 
 # Run test script commands.
-# Default is specific to project language.
 # All commands must exit with code 0 on success. Anything else is considered failure.
 script:
     # Search theme for PHP syntax errors.
